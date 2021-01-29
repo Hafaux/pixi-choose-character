@@ -35,6 +35,10 @@ export default class ProgressBar extends Container {
     this._createBar();
   }
 
+  get bar() {
+    return this._bar;
+  }
+
   /**
    * @private
    */
