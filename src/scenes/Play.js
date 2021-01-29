@@ -54,7 +54,7 @@ export default class Play extends Scene {
     this._stats.y = 130;
     this.addChild(this._stats);
 
-    this.setRocket(3);
+    this.setRocket(0);
   }
 
   setRocket(index) {
